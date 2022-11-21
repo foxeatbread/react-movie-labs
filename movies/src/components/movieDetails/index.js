@@ -27,7 +27,7 @@ const MovieDetails = ({ movie }) => {  // Don't miss this!
               ))}
       </Stack>
       
-      <p style={{marginTop: '0.5rem' ,fontSize: '1.2rem'}}> <span style={{fontWeight: 'bolder',whiteSpace:'pre'}}>Runtime:  </span>{movie.runtime} minutes</p>   
+      <p style={{marginTop: '0.5rem' ,fontSize: '1.2rem'}}><span style={{fontWeight: 'bolder',whiteSpace:'pre'}}>Runtime:  </span>{movie.runtime} minutes</p>   
       <p style={{marginTop: '0.5rem' ,fontSize: '1.2rem'}}><span style={{fontWeight: 'bolder',whiteSpace:'pre'}}>Revenue:  $</span>{movie.revenue.toLocaleString()}</p>  
       <p style={{marginTop: '0.5rem' ,fontSize: '1.2rem'}}><span style={{fontWeight: 'bolder',whiteSpace:'pre'}}>Average score  :</span>{movie.vote_average} </p> 
       <p style={{marginTop: '0.5rem' ,fontSize: '1.2rem'}}><span style={{fontWeight: 'bolder',whiteSpace:'pre'}}>Popularity  :</span>{movie.popularity} </p>  
