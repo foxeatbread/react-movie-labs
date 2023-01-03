@@ -1,5 +1,4 @@
 let movies;
-const movieId = 497582; // Enola Holmes movie id
 
 describe("The favourites feature", () => {
   before(() => {
@@ -18,7 +17,7 @@ describe("The favourites feature", () => {
   });
 
   describe("Selecting favourites", () => {
-    it("selected movie card shows the red heart", () => {
+    it("select the blue heard on the movie card and click it into red heart", () => {
       cy.get(".MuiCardHeader-root").eq(1).find("svg").should("not.exist");
       cy.get("button[aria-label='add to favorites']").eq(1).click();
       cy.get(".MuiCardHeader-root").eq(1).find("svg");
@@ -30,7 +29,7 @@ describe("The favourites feature", () => {
       // Select two favourites and navigate to Favourites page
       cy.get("button[aria-label='add to favorites']").eq(1).click();
       cy.get("button[aria-label='add to favorites']").eq(3).click();
-      cy.get("button").contains("Favorites").click();
+      cy.get("button").contains("Favourites").click();
     });
     it("only the tagged movies are listed", () => {
       cy.get(".MuiCardHeader-content").should("have.length", 2);
