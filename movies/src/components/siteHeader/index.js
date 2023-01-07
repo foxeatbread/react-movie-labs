@@ -23,6 +23,7 @@ function DrawerAppBar(props) {
     { label: "Home", path: "/" },
     { label: "Favourites", path: "/movies/favorites" },
     { label: "Upcoming", path: "/movies/upcoming" },
+    { label: "Login", path:"/login"}
   ]
 
   let inputData;

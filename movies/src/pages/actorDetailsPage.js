@@ -64,7 +64,7 @@ const ActorPage = (props) => {
 
           </Grid>
           
-          <Grid item xs="12">
+          <Grid item xs = {12}>
             <Stack style={{marginLeft:'50px', marginLeft:'50px'}}>
               <p style={{fontSize: '1.5rem', fontWeight: 'bold'}}>Biography......</p>
               <p style={{fontSize: '1.2rem'}}>{details.biography}</p>
