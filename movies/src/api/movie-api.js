@@ -30,3 +30,5 @@ export const getMovies = () => {
         console.log(error);
     });
   };
+
+  
