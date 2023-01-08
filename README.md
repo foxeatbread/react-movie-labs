@@ -2,39 +2,27 @@
 
 ## Name: Gu Haoxuan
 
-## React-CA1 && Agile test
+## React-CA2
 
-## siteHeader
+API changes
+/tmdb/upcoming
+/tmdb/movies
+/tmdb/movie/:id
+/tmdb/genres
+/tmdb/reviews/:id
+/tmdb/upcomingpage
+/tmdb/reviews/movieImages/:id
+/tmdb/pages/:page
+/tmdb/credits/:movie_id
+/tmdb/actorDetail/:id
+/tmdb/searchMovie/:moveiName
 
-A parameterized URL included.
+## Related Links
 
-![](movies\readme_source\header.png)
+Github: https://github.com/foxeatbread/react-movie-labs.git
+Youtube video: https://youtu.be/_hd4-8Vfr_Y
 
-
-## Movie's details
-
-Show the movie's details such as Revenue and stars through the API of TMDB.
-
-![](movies\readme_source\detail.png)
-
-
-## Cast
-
-The cast can be displayed, but the actor details page has not been produced yet.
-
-![](movies\readme_source\cast.png)
-
-
-
-## Pagination
-
-Join pagination, you can turn pages for new movies.
-
-![](movies\readme_source\pagination.png)
-
-
-## Actors' detail page
-
-Show the actors' details.
-
-![](movies\readme_source\actor_detail.png)
+## What I did
+Changed all API on express
+Added login registration function and page
+Most of the pages require login to access
